@@ -1,0 +1,40 @@
+ul.css-menu-1 {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 100; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  margin-right:200px;
+  margin-left:200px;
+  background:#497e76; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 50px; /*задаем высоту*/
+}
+a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#497e76; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0px 30px; /*добавляем отступ*/
+  font-family: arial; /*меняем шрифт*/
+  line-height:50px; /*ровняем меню по вертикали*/
+  display: block; 
+  border-right: 3px solid #5a9e94; /*добавляем бордюр справа*/
+  -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+  -o-transition: all 0.3s 0.01s ease;
+  -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+  background:#5a9e94;/*добавляем эффект при наведении*/
+}
+li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+
+ul.css-menu-2 {
+  
+  margin: 0; /*убираем отступы*/
+  padding-left: 100; /*убираем отступы*/
+  margin-top:25px; /*делаем отступ сверху*/
+  margin-right:200px;
+  margin-left:200px;
+  background:#FFFFFF; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 660px; /*задаем высоту*/
+}
